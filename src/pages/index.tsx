@@ -70,7 +70,7 @@ export default function Home() {
             error={errors.password?.message}
           />
         </div>
-        <Button type="submit" disabled={isSubmitting}>
+        <Button type="submit" className="mt-3" disabled={isSubmitting}>
           {isSubmitting ? "Logging in..." : "Login"}
         </Button>
       </form>
